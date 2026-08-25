@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidad — iPort Vigo</title>
+<meta name="description" content="Política de Privacidad de la aplicación iPort Vigo, guía del Sendero Azul del Puerto de Vigo.">
+<meta name="robots" content="index, follow">
+<style>
+  /* ----------------------------------------------------------------
+     Sin fuentes ni recursos externos: la página no envía la IP del
+     lector a ningún tercero. Coherente con lo que declara el texto.
+     ---------------------------------------------------------------- */
+  :root{
+    --ink:      #10222E;
+    --sea:      #14607A;
+    --granite:  #56666D;
+    --sand:     #DFDACE;
+    --paper:    #F6F7F5;
+    --card:     #FFFFFF;
+    --flag:     #FBEFD2;
+    --flag-ink: #7A5A12;
+
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --serif: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif;
+  }
+
+  *{ box-sizing:border-box; }
+  html{ -webkit-text-size-adjust:100%; }
+
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--sans);
+    font-size:17px;
+    line-height:1.62;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  .sheet{
+    max-width:46rem;
+    margin:0 auto;
+    background:var(--card);
+    border-left:1px solid var(--sand);
+    border-right:1px solid var(--sand);
+    padding:0 clamp(1.25rem, 5vw, 3.5rem) 5rem;
+  }
+
+  header.doc{
+    padding:clamp(2.5rem,7vw,4.5rem) 0 2rem;
+    border-bottom:2px solid var(--ink);
+    margin-bottom:2.5rem;
+  }
+  .eyebrow{
+    font-size:.72rem;
+    letter-spacing:.16em;
+    text-transform:uppercase;
+    color:var(--sea);
+    font-weight:600;
+    margin:0 0 1rem;
+  }
+  h1{
+    font-family:var(--serif);
+    font-weight:400;
+    font-size:clamp(1.9rem, 6vw, 2.85rem);
+    line-height:1.14;
+    letter-spacing:-.015em;
+    margin:0 0 1.25rem;
+  }
+  .updated{
+    font-size:.9rem;
+    color:var(--granite);
+    margin:0;
+  }
+
+  section{ margin:0 0 2.75rem; }
+
+  h2{
+    font-family:var(--serif);
+    font-weight:400;
+    font-size:clamp(1.25rem,3.6vw,1.5rem);
+    line-height:1.28;
+    margin:0 0 1rem;
+    padding-top:1.75rem;
+    border-top:1px solid var(--sand);
+    position:relative;
+  }
+  h2 .n{
+    display:block;
+    font-family:var(--sans);
+    font-size:.72rem;
+    font-weight:700;
+    letter-spacing:.14em;
+    color:var(--sea);
+    margin-bottom:.5rem;
+  }
+  section:first-of-type h2{ border-top:none; padding-top:0; }
+
+  @media (min-width:56rem){
+    h2 .n{
+      position:absolute;
+      left:-3.75rem;
+      top:1.95rem;
+      margin:0;
+      text-align:right;
+      width:2.5rem;
+    }
+    section:first-of-type h2 .n{ top:.2rem; }
+  }
+
+  p{ margin:0 0 1.05rem; }
+  p:last-child{ margin-bottom:0; }
+
+  strong{ font-weight:650; color:var(--ink); }
+
+  ul{ margin:0 0 1.05rem; padding:0; list-style:none; }
+  li{ position:relative; padding-left:1.35rem; margin-bottom:.6rem; }
+  li::before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:.72em;
+    width:.5rem;
+    height:1px;
+    background:var(--sea);
+  }
+
+  a{ color:var(--sea); text-underline-offset:.18em; overflow-wrap:break-word; }
+  a:focus-visible{
+    outline:2px solid var(--sea);
+    outline-offset:3px;
+    border-radius:2px;
+  }
+
+  .contact{
+    background:var(--paper);
+    border-left:3px solid var(--sea);
+    padding:1.1rem 1.25rem;
+    margin:1.5rem 0 0;
+    font-size:.95rem;
+  }
+  .contact p{ margin:0 0 .4rem; }
+  .contact p:last-child{ margin:0; }
+
+  /* Campos pendientes de completar: deliberadamente visibles. */
+  .todo{
+    background:var(--flag);
+    color:var(--flag-ink);
+    padding:.05em .4em;
+    border-radius:2px;
+    font-weight:600;
+    font-size:.94em;
+  }
+
+  footer.doc{
+    margin-top:3.5rem;
+    padding-top:1.5rem;
+    border-top:2px solid var(--ink);
+    font-size:.85rem;
+    color:var(--granite);
+  }
+
+  @media print{
+    body{ background:#fff; font-size:11pt; }
+    .sheet{ border:none; max-width:none; padding:0; }
+    h2{ break-after:avoid; }
+    section{ break-inside:avoid; }
+    .todo{ background:none; color:inherit; text-decoration:underline; }
+    a{ color:inherit; }
+  }
+</style>
+</head>
+<body>
+<main class="sheet">
+
+  <header class="doc">
+    <p class="eyebrow">Sendero Azul del Puerto de Vigo</p>
+    <h1>Política de Privacidad<br>iPort&nbsp;Vigo</h1>
+    <p class="updated">Última actualización: 25 de agosto de 2026</p>
+  </header>
+
+  <section>
+    <h2><span class="n">01</span>Quiénes somos</h2>
+    <p>Esta Política de Privacidad explica cómo <strong>Francesco Pititto – Envjoy Nature</strong> («nosotros») trata la información en relación con la aplicación Android <strong>iPort Vigo</strong> («la Aplicación»).</p>
+    <p>La Aplicación es una guía turística, cultural y educativa del Sendero Azul de la Autoridad Portuaria de Vigo. Permite a los visitantes recorrer el itinerario mediante un mapa interactivo, puntos de interés, contenidos multimedia, carteles en PDF y experiencias de realidad aumentada.</p>
+    <p>A efectos del Reglamento General de Protección de Datos (RGPD), <strong>Francesco Pititto – Envjoy Nature es el responsable del tratamiento</strong>.</p>
+    <div class="contact">
+      <p><strong>Contacto en materia de privacidad:</strong> <a href="mailto:3nvjoy@gmail.com">3nvjoy@gmail.com</a></p>
+      <p><strong>Esta política está publicada en:</strong><br><a href="https://software-envjoy.github.io/Privacy_Policy_iPortVigo/index_iPortVigo.html" rel="noopener">https://software-envjoy.github.io/Privacy_Policy_iPortVigo/index_iPortVigo.html</a></p>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="n">02</span>Resumen</h2>
+    <p>La Aplicación no tiene cuentas de usuario, ni inicio de sesión, ni publicidad. No le pedimos su nombre, correo electrónico, teléfono, datos de pago ni ningún otro dato de contacto, y no creamos perfiles de usuario.</p>
+    <p>La Aplicación no utiliza herramientas de analítica, SDK publicitarios, herramientas de notificación de fallos ni notificaciones push.</p>
+    <p>La Aplicación utiliza tres funciones del dispositivo, únicamente para prestar sus funcionalidades principales:</p>
+    <ul>
+      <li><strong>Ubicación aproximada</strong> — para mostrar su posición en el mapa, mientras la sección de mapa está abierta.</li>
+      <li><strong>Cámara</strong> — para hacer posibles las experiencias de realidad aumentada.</li>
+      <li><strong>Conexión a internet</strong> — para mostrar la cartografía del mapa y descargar contenidos como modelos 3D, vídeos, imágenes y carteles en PDF.</li>
+    </ul>
+    <p>Los servidores que entregan estos contenidos tratan de forma inevitable ciertos datos técnicos, como la dirección IP. El apartado 5 lo explica.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">03</span>Ubicación</h2>
+    <p>Mientras la sección de mapa está abierta, la Aplicación puede solicitar acceso a la <strong>ubicación aproximada</strong> del dispositivo para mostrar su posición a lo largo del recorrido.</p>
+    <p>La Aplicación no solicita ubicación en segundo plano, no almacena sus coordenadas, no las envía a nuestros servidores y no las utiliza con fines publicitarios, de seguimiento, elaboración de perfiles o analítica. La ubicación se trata exclusivamente en su dispositivo.</p>
+    <p>Puede conceder o retirar este permiso en cualquier momento desde los ajustes del dispositivo. Sin él, el mapa sigue funcionando: simplemente no mostrará su posición.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">04</span>Cámara y realidad aumentada</h2>
+    <p>La Aplicación puede solicitar acceso a la cámara del dispositivo para ofrecer experiencias de realidad aumentada: reconocimiento de imágenes objetivo, detección de superficies y colocación de contenidos 3D en su entorno.</p>
+    <p>La Aplicación no toma fotografías ni vídeos, no guarda imágenes de la cámara y no envía a ningún sitio fotogramas de cámara, nubes de puntos, mapas de profundidad ni escaneos del entorno. Todo el procesamiento de la cámara se realiza en su dispositivo.</p>
+    <p>La Aplicación no utiliza funciones de realidad aumentada en la nube, como Vuforia Cloud Recognition, ARCore Cloud Anchors, la ARCore Geospatial API o sesiones de AR compartidas.</p>
+    <p>Puede conceder o retirar el permiso de cámara en cualquier momento desde los ajustes del dispositivo. Sin él, la sección de realidad aumentada no funcionará; el resto de la Aplicación seguirá disponible.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">05</span>Servidores de contenidos, mapas y datos técnicos</h2>
+    <p>La Aplicación necesita conexión a internet para mostrar la cartografía del mapa y para descargar los contenidos alojados en servidores externos. Estos contenidos se muestran en el momento y <strong>no se almacenan de forma permanente en su dispositivo</strong>.</p>
+    <p>Cuando su dispositivo solicita estos contenidos, los servidores y el proveedor de cartografía tratan automáticamente datos técnicos de conexión estándar: <strong>dirección IP, fecha y hora de la solicitud, recurso solicitado, información técnica básica de la petición y registros de seguridad y de error.</strong> Conforme a la normativa europea de protección de datos, una dirección IP puede constituir un dato personal, motivo por el cual lo describimos aquí.</p>
+    <p>Utilizamos esta información únicamente para entregar los contenidos, mantener la seguridad del servicio, diagnosticar incidencias y prevenir usos abusivos. No la utilizamos para identificarle, elaborar perfiles, mostrar publicidad ni seguirle a través de otros servicios. La base jurídica es nuestro interés legítimo en operar la Aplicación de forma segura y fiable (artículo 6.1.f del RGPD).</p>
+    <p>Nuestros servidores de contenidos utilizan HTTPS y están alojados en la Unión Europea en infraestructura de <strong>Amazon Web Services (AWS)</strong>. Los registros del servidor se conservan un máximo de <strong>30 días</strong>, salvo que sea necesario un plazo superior para investigar un incidente de seguridad o cumplir una obligación legal.</p>
+    <p>La cartografía procede de <strong>Thunderforest</strong> (Gravitystorm Limited), elaborada sobre datos de <strong>OpenStreetMap</strong>. Las solicitudes de teselas del mapa llegan directamente a dicho proveedor y están sujetas a sus propias condiciones de privacidad: <a href="https://www.thunderforest.com/privacy/" rel="noopener">https://www.thunderforest.com/privacy/</a>. Los datos cartográficos de OpenStreetMap se rigen por la política de privacidad de la OpenStreetMap Foundation: <a href="https://osmfoundation.org/wiki/Privacy_Policy" rel="noopener">https://osmfoundation.org/wiki/Privacy_Policy</a>.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">06</span>Tecnologías de terceros</h2>
+    <p>La Aplicación está desarrollada con Unity y utiliza los siguientes componentes de terceros:</p>
+    <ul>
+      <li><strong>Unity</strong> y <strong>Unity AR Foundation</strong></li>
+      <li><strong>Vuforia (PTC)</strong> — al iniciarse, Vuforia valida su clave de licencia con los servidores de PTC. Esta comprobación transmite la clave de licencia e información básica de la aplicación y del dispositivo a PTC. Consulte la política de privacidad de PTC para más detalles.</li>
+      <li><strong>ARCore (Google)</strong> en dispositivos compatibles — cuando ARCore está presente, Google puede tratar datos conforme a su propia política de privacidad.</li>
+      <li><strong>Online Maps v4 (Infinity Code)</strong>, con cartografía de <strong>Thunderforest</strong> sobre datos de OpenStreetMap, según se indica en el apartado 5.</li>
+      <li>Infraestructura de alojamiento y entrega de contenidos para los archivos multimedia de la Aplicación.</li>
+    </ul>
+    <p>La Aplicación <strong>no</strong> utiliza Unity Analytics, Unity Ads, Firebase, Google Analytics, Crashlytics, Sentry, GameAnalytics, el SDK de Meta, SDK publicitarios ni servicios de notificaciones push.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">07</span>Formulario externo de opinión</h2>
+    <p>La Aplicación incluye un enlace a un formulario de opinión gestionado por la Autoridad Portuaria de Vigo: <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDCgl61mN-CWv80bmtJinrTH3HQYeDPNtee0u89480WJwF0g/viewform?usp=header" rel="noopener">https://docs.google.com/forms/d/e/1FAIpQLSfDCgl61mN-CWv80bmtJinrTH3HQYeDPNtee0u89480WJwF0g/viewform</a>.</p>
+    <p>Antes de abrirlo, la Aplicación le informa de que va a salir de la Aplicación. Si decide utilizar dicho formulario, la información que facilite será tratada por la Autoridad Portuaria de Vigo conforme a sus propias condiciones de privacidad. Nosotros no gestionamos ese formulario y no recibimos datos procedentes de él.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">08</span>Público destinatario</h2>
+    <p>La Aplicación está dirigida a un público adulto general. Sus contenidos son de naturaleza turística, cultural y educativa. La Aplicación no incluye contenido para adultos, violencia, apuestas ni juegos de azar, publicidad, compras, mensajería o interacción social entre usuarios, ni asesoramiento profesional de ningún tipo.</p>
+    <p>No recabamos de forma consciente información personal. Dado que la Aplicación no dispone de cuentas de usuario y no recoge datos identificativos, tampoco trata información que permita determinar la edad de quien la utiliza.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">09</span>Sus derechos</h2>
+    <p>Si se encuentra en la Unión Europea o el Reino Unido, tiene derecho a solicitar el acceso, la rectificación, la supresión o la limitación del tratamiento de sus datos personales, así como a oponerse al tratamiento y a la portabilidad de los datos.</p>
+    <p>Dado que la Aplicación no tiene cuentas de usuario y no recogemos intencionadamente información que le identifique, por lo general no podemos vincular el uso de la Aplicación a una persona concreta. Esto significa que en la mayoría de los casos no podremos localizar datos relativos a usted, y es posible que necesitemos solicitarle información adicional que nos permita hacerlo.</p>
+    <p>Para ejercer sus derechos, escriba a <a href="mailto:3nvjoy@gmail.com">3nvjoy@gmail.com</a>. También tiene derecho a presentar una reclamación ante la autoridad de control competente; en España, la Agencia Española de Protección de Datos (<a href="https://www.aepd.es" rel="noopener">www.aepd.es</a>).</p>
+  </section>
+
+  <section>
+    <h2><span class="n">10</span>Seguridad y transferencias internacionales</h2>
+    <p>Aplicamos medidas técnicas y organizativas razonables para proteger la Aplicación y su sistema de entrega de contenidos, incluido el uso de HTTPS en todas las comunicaciones con los servidores. Ningún método de transmisión o almacenamiento electrónico es completamente seguro.</p>
+    <p>Algunos de nuestros proveedores de servicios pueden tratar datos técnicos fuera del Espacio Económico Europeo, en cada caso con las garantías exigidas por la normativa de protección de datos aplicable.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">11</span>Cambios en esta política</h2>
+    <p>Podemos actualizar esta Política de Privacidad. La versión vigente está siempre publicada en <a href="https://software-envjoy.github.io/Privacy_Policy_iPortVigo/index_iPortVigo.html" rel="noopener">https://software-envjoy.github.io/Privacy_Policy_iPortVigo/index_iPortVigo.html</a>, y la fecha de «Última actualización» indica la revisión más reciente.</p>
+  </section>
+
+  <footer class="doc">
+    <p>Francesco Pititto – Envjoy Nature · iPort Vigo · Sendero Azul de la Autoridad Portuaria de Vigo</p>
+  </footer>
+
+</main>
+</body>
+</html>
