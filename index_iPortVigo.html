@@ -177,7 +177,7 @@
   <header class="doc">
     <p class="eyebrow">Sendero Azul del Puerto de Vigo</p>
     <h1>Política de Privacidad<br>iPort&nbsp;Vigo</h1>
-    <p class="updated">Última actualización: 25 de agosto de 2026</p>
+    <p class="updated">Última actualización: 30 de agosto de 2026</p>
   </header>
 
   <section>
@@ -197,17 +197,17 @@
     <p>La Aplicación no utiliza herramientas de analítica, SDK publicitarios, herramientas de notificación de fallos ni notificaciones push.</p>
     <p>La Aplicación utiliza tres funciones del dispositivo, únicamente para prestar sus funcionalidades principales:</p>
     <ul>
-      <li><strong>Ubicación aproximada</strong> — para mostrar su posición en el mapa, mientras la sección de mapa está abierta.</li>
-      <li><strong>Cámara</strong> — para hacer posibles las experiencias de realidad aumentada.</li>
-      <li><strong>Conexión a internet</strong> — para mostrar la cartografía del mapa y descargar contenidos como modelos 3D, vídeos, imágenes y carteles en PDF.</li>
+      <li><strong>Ubicación</strong> (precisa o aproximada, según el nivel que usted conceda) — para mostrar su posición en el mapa, mientras la sección de mapa está abierta. Se procesa únicamente en su dispositivo.</li>
+      <li><strong>Cámara y sensores de movimiento</strong> — para hacer posibles las experiencias de realidad aumentada.</li>
+      <li><strong>Conexión a internet</strong> — para descargar contenidos como modelos 3D, vídeos, imágenes y carteles en PDF. El mapa está incluido en la propia Aplicación y no necesita conexión.</li>
     </ul>
     <p>Los servidores que entregan estos contenidos tratan de forma inevitable ciertos datos técnicos, como la dirección IP. El apartado 5 lo explica.</p>
   </section>
 
   <section>
     <h2><span class="n">03</span>Ubicación</h2>
-    <p>Mientras la sección de mapa está abierta, la Aplicación puede solicitar acceso a la <strong>ubicación aproximada</strong> del dispositivo para mostrar su posición a lo largo del recorrido.</p>
-    <p>La Aplicación no solicita ubicación en segundo plano, no almacena sus coordenadas, no las envía a nuestros servidores y no las utiliza con fines publicitarios, de seguimiento, elaboración de perfiles o analítica. La ubicación se trata exclusivamente en su dispositivo.</p>
+    <p>Mientras la sección de mapa está abierta, la Aplicación puede solicitar acceso a la <strong>ubicación</strong> del dispositivo para mostrar su posición a lo largo del recorrido. En el diálogo de permisos de Android puede conceder la ubicación <strong>precisa</strong> o únicamente la <strong>aproximada</strong>; la Aplicación funciona con cualquiera de las dos.</p>
+    <p>El mapa está incluido dentro de la propia Aplicación, por lo que mostrar su posición no requiere enviar nada a internet. La Aplicación no solicita ubicación en segundo plano, no almacena sus coordenadas, no las envía a nuestros servidores ni a terceros y no las utiliza con fines publicitarios, de seguimiento, elaboración de perfiles o analítica. La ubicación se trata exclusivamente en su dispositivo.</p>
     <p>Puede conceder o retirar este permiso en cualquier momento desde los ajustes del dispositivo. Sin él, el mapa sigue funcionando: simplemente no mostrará su posición.</p>
   </section>
 
@@ -215,17 +215,19 @@
     <h2><span class="n">04</span>Cámara y realidad aumentada</h2>
     <p>La Aplicación puede solicitar acceso a la cámara del dispositivo para ofrecer experiencias de realidad aumentada: reconocimiento de imágenes objetivo, detección de superficies y colocación de contenidos 3D en su entorno.</p>
     <p>La Aplicación no toma fotografías ni vídeos, no guarda imágenes de la cámara y no envía a ningún sitio fotogramas de cámara, nubes de puntos, mapas de profundidad ni escaneos del entorno. Todo el procesamiento de la cámara se realiza en su dispositivo.</p>
+    <p>Para el seguimiento de la realidad aumentada, la Aplicación también lee a alta frecuencia los sensores de movimiento del dispositivo (acelerómetro y giroscopio). Estas lecturas se procesan únicamente en su dispositivo y no se almacenan ni se transmiten.</p>
     <p>La Aplicación no utiliza funciones de realidad aumentada en la nube, como Vuforia Cloud Recognition, ARCore Cloud Anchors, la ARCore Geospatial API o sesiones de AR compartidas.</p>
     <p>Puede conceder o retirar el permiso de cámara en cualquier momento desde los ajustes del dispositivo. Sin él, la sección de realidad aumentada no funcionará; el resto de la Aplicación seguirá disponible.</p>
   </section>
 
   <section>
-    <h2><span class="n">05</span>Servidores de contenidos, mapas y datos técnicos</h2>
-    <p>La Aplicación necesita conexión a internet para mostrar la cartografía del mapa y para descargar los contenidos alojados en servidores externos. Estos contenidos se muestran en el momento y <strong>no se almacenan de forma permanente en su dispositivo</strong>.</p>
-    <p>Cuando su dispositivo solicita estos contenidos, los servidores y el proveedor de cartografía tratan automáticamente datos técnicos de conexión estándar: <strong>dirección IP, fecha y hora de la solicitud, recurso solicitado, información técnica básica de la petición y registros de seguridad y de error.</strong> Conforme a la normativa europea de protección de datos, una dirección IP puede constituir un dato personal, motivo por el cual lo describimos aquí.</p>
+    <h2><span class="n">05</span>Mapa sin conexión, servidores de contenidos y datos técnicos</h2>
+    <p>El mapa de la Aplicación está generado a partir de datos de <strong>OpenStreetMap</strong> y está incluido dentro de la propia Aplicación. Las teselas del mapa se leen localmente desde su dispositivo: la Aplicación no realiza ninguna solicitud a servidores de mapas, por lo que ni su posición ni su dirección IP se comunican a ningún proveedor de cartografía. La atribución de OpenStreetMap se muestra dentro de la Aplicación.</p>
+    <p>La Aplicación necesita conexión a internet para descargar los contenidos multimedia alojados en nuestros servidores: modelos 3D, vídeos, imágenes y carteles en PDF (algunos contenidos vienen ya incluidos en la Aplicación). Estos contenidos se muestran en el momento y <strong>no se almacenan de forma permanente en su dispositivo</strong>.</p>
+    <p>Cuando su dispositivo solicita estos contenidos, nuestros servidores tratan automáticamente datos técnicos de conexión estándar: <strong>dirección IP, fecha y hora de la solicitud, recurso solicitado, información técnica básica de la petición y registros de seguridad y de error.</strong> Conforme a la normativa europea de protección de datos, una dirección IP puede constituir un dato personal, motivo por el cual lo describimos aquí.</p>
     <p>Utilizamos esta información únicamente para entregar los contenidos, mantener la seguridad del servicio, diagnosticar incidencias y prevenir usos abusivos. No la utilizamos para identificarle, elaborar perfiles, mostrar publicidad ni seguirle a través de otros servicios. La base jurídica es nuestro interés legítimo en operar la Aplicación de forma segura y fiable (artículo 6.1.f del RGPD).</p>
     <p>Nuestros servidores de contenidos utilizan HTTPS y están alojados en la Unión Europea en infraestructura de <strong>Amazon Web Services (AWS)</strong>. Los registros del servidor se conservan un máximo de <strong>30 días</strong>, salvo que sea necesario un plazo superior para investigar un incidente de seguridad o cumplir una obligación legal.</p>
-    <p>La cartografía procede de <strong>Thunderforest</strong> (Gravitystorm Limited), elaborada sobre datos de <strong>OpenStreetMap</strong>. Las solicitudes de teselas del mapa llegan directamente a dicho proveedor y están sujetas a sus propias condiciones de privacidad: <a href="https://www.thunderforest.com/privacy/" rel="noopener">https://www.thunderforest.com/privacy/</a>. Los datos cartográficos de OpenStreetMap se rigen por la política de privacidad de la OpenStreetMap Foundation: <a href="https://osmfoundation.org/wiki/Privacy_Policy" rel="noopener">https://osmfoundation.org/wiki/Privacy_Policy</a>.</p>
+    <p>Para comprobar la disponibilidad de conexión a internet, la Aplicación puede realizar una petición mínima a nuestra página publicada mediante <strong>GitHub Pages</strong> (GitHub, Inc.). Como cualquier servidor web, GitHub trata los datos técnicos de esa conexión conforme a su propia <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" rel="noopener">política de privacidad</a>.</p>
   </section>
 
   <section>
@@ -233,10 +235,10 @@
     <p>La Aplicación está desarrollada con Unity y utiliza los siguientes componentes de terceros:</p>
     <ul>
       <li><strong>Unity</strong> y <strong>Unity AR Foundation</strong></li>
-      <li><strong>Vuforia (PTC)</strong> — al iniciarse, Vuforia valida su clave de licencia con los servidores de PTC. Esta comprobación transmite la clave de licencia e información básica de la aplicación y del dispositivo a PTC. Consulte la política de privacidad de PTC para más detalles.</li>
+      <li><strong>Vuforia (PTC)</strong> — al iniciarse el motor de realidad aumentada, Vuforia valida su clave de licencia con los servidores de PTC y transmite estadísticas básicas de uso: información del dispositivo, versión del motor y comprobación de la licencia, e información de la aplicación y eventos del ciclo de vida del motor, así como la dirección IP de la conexión, que PTC utiliza únicamente para inferir el país de uso, no la ubicación exacta. Según PTC, se trata de estadísticas anonimizadas que no contienen información personal identificativa; el análisis de las imágenes de la cámara se realiza íntegramente en su dispositivo, como se describe en el apartado 4. PTC describe estos datos en su <a href="https://developer.vuforia.com/library/vuforia-engine/data-security/vuforia-engine-data-security/" rel="noopener">documentación de seguridad de datos</a> y en su <a href="https://developer.vuforia.com/legal/statistics" rel="noopener">lista de estadísticas</a>; consulte también la política de privacidad de PTC.</li>
       <li><strong>ARCore (Google)</strong> en dispositivos compatibles — cuando ARCore está presente, Google puede tratar datos conforme a su propia política de privacidad.</li>
-      <li><strong>Online Maps v4 (Infinity Code)</strong>, con cartografía de <strong>Thunderforest</strong> sobre datos de OpenStreetMap, según se indica en el apartado 5.</li>
-      <li>Infraestructura de alojamiento y entrega de contenidos para los archivos multimedia de la Aplicación.</li>
+      <li><strong>Online Maps v4 (Infinity Code)</strong> — se utiliza únicamente para mostrar el mapa sin conexión incluido en la Aplicación, según se indica en el apartado 5; en esta configuración no se conecta a ningún servidor de mapas ni a otros servicios en línea.</li>
+      <li>Infraestructura de alojamiento y entrega de contenidos para los archivos multimedia de la Aplicación, y <strong>GitHub Pages</strong> para la publicación de esta política y la comprobación de conectividad.</li>
     </ul>
     <p>La Aplicación <strong>no</strong> utiliza Unity Analytics, Unity Ads, Firebase, Google Analytics, Crashlytics, Sentry, GameAnalytics, el SDK de Meta, SDK publicitarios ni servicios de notificaciones push.</p>
   </section>
